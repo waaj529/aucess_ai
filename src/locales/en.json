@@ -1,0 +1,214 @@
+{
+  "nav": {
+    "aiSolutions": "AI Solutions",
+    "forAgencies": "For Agencies",
+    "caseStudies": "Case Studies",
+    "aboutAucess": "About Aucess",
+    "contactUs": "Contact Us",
+    "bookDemo": "Book Demo"
+  },
+  "hero": {
+    "title": "We Engineer Intelligent AI Agents for Your Business.",
+    "description": "Aucess specializes in building custom Agentic AI that integrates directly into your website and other social media platforms and automate your business. We don't just answer questions; we automate bookings, sales, and support.",
+    "getFreeConsultation": "Get Your Free Consultation",
+    "viewCaseStudies": "View Case Studies",
+    "agenticAI": "Agentic AI",
+    "autoActions": "Auto Actions",
+    "booking": "Booking",
+    "wpIntegration": "WP Integration",
+    "plugins": "Plugins",
+    "setup": "Setup",
+    "multilingual": "Multilingual",
+    "fiftyPlusLang": "50+ Lang",
+    "zeroLatency": "Zero Latency",
+    "bookStrategyCall": "Book Strategy Call",
+    "seeLiveDemo": "See Live Demo",
+    "businessesAutomated": "Businesses Automated",
+    "hoursSaved": "Hours Saved",
+    "clientRevenueGenerated": "Client Revenue Generated"
+  },
+  "pricing": {
+    "starter": "STARTER",
+    "enterprise": "ENTERPRISE",
+    "oneTimeSetup": "One-Time Setup",
+    "developmentImplementationFee": "Development & Implementation Fee",
+    "customQuote": "Custom Quote",
+    "plusMaintenance": "Plus {{amount}}/mo maintenance",
+    "requestProposal": "Request Proposal",
+    "bookStrategyCall": "Book Strategy Call",
+    "customKnowledgeBase": "Custom Knowledge Base (Trained on PDFs/Site)",
+    "standardChatbot": "Standard Chatbot (Q&A only, no actions)",
+    "threeLanguageSupport": "3-Language Support (Auto-detect)",
+    "everythingInStarter": "Everything in Starter +",
+    "agenticAI": "Agentic AI (Performs actions: Booking, Emailing)",
+    "deepAPIIntegration": "Deep API Integration (WooCommerce/Booking Engines)"
+  },
+  "features": {
+    "subtitle": "Aucess ai chatbot Features",
+    "title": "Build the perfect customer-facing AI agent",
+    "button": "build your ai chatbot - it's free",
+    "items": {
+      "chatbot": {
+        "title": "Automate with smart chatbot",
+        "description": "Handle customer queries instantly, reduce repetitive manual tasks, and boost customer satisfaction with our 24/7 AI-powered chatbot automation designed to streamline your support."
+      },
+      "realtime": {
+        "title": "Sync with real-time data",
+        "description": "Make faster, data-driven decisions powered by real-time AI analysis and prediction."
+      },
+      "multilingual": {
+        "title": "Multilingual support",
+        "description": "Multilingual support lets you connect with customers worldwide by removing language."
+      },
+      "reporting": {
+        "title": "Advanced reporting",
+        "description": "Advanced reporting provides detailed insights and data to help you make smarter."
+      },
+      "privacy": {
+        "title": "Data privacy & security",
+        "description": "Data privacy & security protect your information, ensuring it stays safe all times."
+      }
+    }
+  },
+  "testimonials": {
+    "subtitle": "Testimonials",
+    "title_part1": "Hear from our",
+    "title_part2": "happy customers",
+    "items": {
+      "somchai": {
+        "content": "\"Aucess now automates over 70% of our customer queries, saving hours of manual work daily. It's improved both our response time and overall customer satisfaction.\"",
+        "author": "Somchai Srivat",
+        "position": "Marketing Director - Siam Innovations"
+      },
+      "bernard": {
+        "content": "\"Building our SaaS application for GreenInfina was seamless with Aucess. The automation capabilities have completely transformed how our agency operates.\"",
+        "author": "Bernard",
+        "position": "Founder - GreenInfina"
+      },
+      "bruno": {
+        "content": "\"Aucess's powerful analytics give us deep insights into customer needs. We've optimized our chatbot flows and seen noticeable growth in conversions.\"",
+        "author": "Bruno Safille",
+        "position": "Founder - Lusterpix & Inspectana"
+      }
+    }
+  },
+  "process": {
+    "subtitle": "HOW IT WORKS",
+    "title": "From Raw Data to Autonomous Agent",
+    "button": "Get Your Roadmap",
+    "steps": {
+      "discovery": "Discovery & Blueprint",
+      "connect": "Connect Channels",
+      "analyze": "Analyze & Optimize"
+    }
+  },
+  "integrations": {
+    "subtitle": "SEAMLESS ECOSYSTEM INTEGRATION",
+    "title": "Your AI agent doesn't live in a silo.",
+    "description": "We engineer custom API bridges to sync real-time data between your chatbot and your existing software stack.",
+    "button": "Check Compatibility",
+    "features": {
+      "inventory": {
+        "title": "Live Inventory & Booking Sync",
+        "context": "We connect to WooCommerce, Shopify, or your Hotel Calendar to prevent double-bookings."
+      },
+      "omnichannel": {
+        "title": "Omnichannel Deployment",
+        "context": "One brain, everywhere. Deploy the same agent on your Website, WhatsApp, and Instagram."
+      },
+      "crm": {
+        "title": "CRM & Lead Automation",
+        "context": "Push leads directly into HubSpot, Salesforce, or Google Sheets the moment they chat."
+      },
+      "payment": {
+        "title": "Payment Gateways",
+        "context": "Process secure transactions via Stripe or PayPal directly inside the chat window."
+      }
+    },
+    "comparison": {
+      "without_title": "Traditional Manual Support",
+      "with_title": "Aucess Agentic Automation",
+      "without": {
+        "dropoff": "High Drop-off Rate: Customers leave if they wait more than 60 seconds.",
+        "hours": "Limited Hours: You miss bookings/sales outside of 9-5 business hours.",
+        "language": "Language Barriers: Losing international tourists due to poor translation.",
+        "passive": "Passive Support: Staff waits for customers to ask questions.",
+        "error": "Human Error: Staff forgets to update the calendar or send confirmation emails."
+      },
+      "with": {
+        "instant": "Instant Response: 0-second latency, capturing leads the moment they show interest.",
+        "revenue": "24/7 Revenue: The agent processes bookings and payments while you sleep.",
+        "fluency": "Native Fluency: Speaks Italian, German, & English perfectly (No \"Google Translate\" feel).",
+        "proactive": "Proactive Selling: The AI suggests upgrades, rooms, and products automatically.",
+        "integration": "Direct Integration: Syncs perfectly with your Database/CRM in real-time."
+      }
+    }
+  },
+  "faq": {
+    "subtitle": "FAQ's",
+    "title": "Have a question look here",
+    "questions": {
+      "q1": {
+        "question": "Do I need a lot of data to train the Al chatbot?",
+        "answer": "You don't need much to start. Just provide your website URL, and our tool will automatically scrape and train your AI chatbot. Even with limited data, you can collect customer questions and keep improving the bot. The more data you provide, the smarter and more effective it becomes.",
+        "points": [
+          "Instant Setup – Add your URL, and the chatbot trains itself.",
+          "Self-Learning – Learns from real customer questions.",
+          "Smarter with Data – More data means better answers."
+        ]
+      },
+      "q2": {
+        "question": "How long does it take to train the chatbot?",
+        "answer": "You don't need much to start. Just provide your website URL, and our tool will automatically scrape and train your AI chatbot. Even with limited data, you can collect customer questions and keep improving the bot. The more data you provide, the smarter and more effective it becomes.",
+        "points": [
+          "Instant Setup – Add your URL, and the chatbot trains itself.",
+          "Self-Learning – Learns from real customer questions.",
+          "Smarter with Data – More data means better answers."
+        ]
+      },
+      "q3": {
+        "question": "How can I embed the Al assistant on my website?",
+        "answer": "You don't need much to start. Just provide your website URL, and our tool will automatically scrape and train your AI chatbot. Even with limited data, you can collect customer questions and keep improving the bot. The more data you provide, the smarter and more effective it becomes.",
+        "points": [
+          "Instant Setup – Add your URL, and the chatbot trains itself.",
+          "Self-Learning – Learns from real customer questions.",
+          "Smarter with Data – More data means better answers."
+        ]
+      },
+      "q4": {
+        "question": "Does it support other languages than english?",
+        "answer": "You don't need much to start. Just provide your website URL, and our tool will automatically scrape and train your AI chatbot. Even with limited data, you can collect customer questions and keep improving the bot. The more data you provide, the smarter and more effective it becomes.",
+        "points": [
+          "Instant Setup – Add your URL, and the chatbot trains itself.",
+          "Self-Learning – Learns from real customer questions.",
+          "Smarter with Data – More data means better answers."
+        ]
+      },
+      "q5": {
+        "question": "Can I take control of a conversation if needed?",
+        "answer": "You don't need much to start. Just provide your website URL, and our tool will automatically scrape and train your AI chatbot. Even with limited data, you can collect customer questions and keep improving the bot. The more data you provide, the smarter and more effective it becomes.",
+        "points": [
+          "Instant Setup – Add your URL, and the chatbot trains itself.",
+          "Self-Learning – Learns from real customer questions.",
+          "Smarter with Data – More data means better answers."
+        ]
+      }
+    }
+  },
+  "cta": {
+    "subtitle": "SAVE HOURS WITH AI CHATBOT",
+    "title": "Stop wasting time on support",
+    "button": "build your ai chatbot - it's free"
+  },
+  "footer": {
+    "socialGroup": "join our social group",
+    "subscribe": "Subscribe to our newsletter",
+    "emailPlaceholder": "Enter your email",
+    "submit": "submit",
+    "cantAfford": "you can't afford it?",
+    "startFree": "start for free",
+    "copyright": "Copyright © {{year}} Aucess, All rights reserved.",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy"
+  }
+}

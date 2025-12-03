@@ -1,0 +1,267 @@
+/* Responsive Utilities */
+@media (min-width: 1200px) {
+    .xb-hide-xl {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .xb-hide-lg {
+        display: none !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .xb-hide-md {
+        display: none !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .xb-hide-sm {
+        display: none !important;
+    }
+}
+
+/* Desktop Menu - Hide on mobile/tablet */
+@media (max-width: 991px) {
+    .main-menu__wrap {
+        display: none !important;
+    }
+}
+
+/* Desktop Menu - Show on desktop and tablet */
+@media (min-width: 992px) {
+    .main-menu__wrap {
+        display: flex !important;
+    }
+}
+
+
+/* Container Responsiveness */
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .hero-img-container {
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .hero-content .title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .hero-style {
+        padding-top: 120px;
+        min-height: auto;
+        padding-bottom: 60px;
+    }
+
+    /* Features Section */
+    .feature-sec-title .title {
+        margin-left: 0;
+        font-size: 28px;
+    }
+
+    .xb-feature-item-3 .xb-img .logo {
+        top: 15%;
+        max-width: 20%;
+    }
+
+    /* Process Section */
+    .xb-process-left-container {
+        position: relative;
+        top: 0;
+        margin-right: 0;
+        padding-bottom: 50px;
+    }
+
+    .xb-process-right-container {
+        padding-bottom: 50px;
+    }
+
+    /* Video Section */
+    .xb-video-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .xb-video-nav .nav-item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .xb-video-nav .nav-link {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Footer Section */
+    .xb-copyright {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .ai-footer-links {
+        justify-content: center;
+    }
+
+    .xb-footer-bottom-title .title {
+        font-size: 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .xb-footer-bottom-title .title img {
+        position: relative;
+        left: auto;
+        top: auto;
+        transform: none;
+        max-width: 30px;
+    }
+}
+
+.header-right .mobile-nav-toggler {
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--color-white);
+    margin-left: 15px;
+    width: 45px;
+    height: 45px;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.header-right .mobile-nav-toggler:hover {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.header-right .mobile-nav-toggler i {
+    display: block;
+}
+
+/* Hide on desktop and tablet, show on mobile */
+@media (min-width: 992px) {
+    .header-right .mobile-nav-toggler {
+        display: none !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .header-right .mobile-nav-toggler {
+        display: inline-flex !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-right .mobile-nav-toggler {
+        font-size: 22px;
+        margin-left: 10px;
+        padding: 6px;
+    }
+}
+
+/* Sketchfab Hero Responsiveness */
+@media (max-width: 991px) {
+    .hero-3d-container {
+        height: 500px;
+        margin-top: 50px;
+    }
+
+    .floating-card {
+        transform: scale(0.8);
+        transform-origin: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-3d-container {
+        height: 450px;
+    }
+
+    .floating-card {
+        transform: scale(0.7);
+        min-width: auto;
+        padding: 8px;
+    }
+
+    .floating-card .card-name {
+        font-size: 12px;
+    }
+
+    .floating-card .card-price {
+        font-size: 14px;
+    }
+
+    /* Adjust positions for mobile to avoid overlap */
+    .card-sol {
+        top: 0%;
+        left: 0;
+    }
+
+    .card-btc {
+        top: 35%;
+        right: -10px;
+    }
+
+    .card-eth {
+        bottom: 25%;
+        left: -10px;
+    }
+
+    .card-ai-fund {
+        bottom: 10%;
+        right: 0;
+    }
+
+    .card-start {
+        top: 10%;
+        right: 0;
+    }
+
+    .card-countdown {
+        bottom: -30px;
+        padding: 10px;
+        width: 90%;
+        justify-content: space-around;
+    }
+
+    .card-countdown .count {
+        font-size: 18px;
+    }
+}

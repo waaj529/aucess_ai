@@ -1,0 +1,214 @@
+{
+    "nav": {
+        "aiSolutions": "KI-Lösungen",
+        "forAgencies": "Für Agenturen",
+        "caseStudies": "Fallstudien",
+        "aboutAucess": "Über Aucess",
+        "contactUs": "Kontakt",
+        "bookDemo": "Demo buchen"
+    },
+    "hero": {
+        "title": "Wir entwickeln intelligente KI-Agenten für Ihr Unternehmen.",
+        "description": "Aucess spezialisiert sich auf den Aufbau von kundenspezifischer Agentischer KI, die sich direkt in Ihre Website und andere Social-Media-Plattformen integriert und Ihr Geschäft automatisiert. Wir beantworten nicht nur Fragen; wir automatisieren Buchungen, Verkäufe und Support.",
+        "getFreeConsultation": "Holen Sie sich Ihre kostenlose Beratung",
+        "viewCaseStudies": "Fallstudien ansehen",
+        "agenticAI": "Agentische KI",
+        "autoActions": "Auto-Aktionen",
+        "booking": "Buchung",
+        "wpIntegration": "WP-Integration",
+        "plugins": "Plugins",
+        "setup": "Einrichtung",
+        "multilingual": "Mehrsprachig",
+        "fiftyPlusLang": "50+ Sprachen",
+        "zeroLatency": "Keine Latenz",
+        "bookStrategyCall": "Strategiegespräch buchen",
+        "seeLiveDemo": "Live-Demo ansehen",
+        "businessesAutomated": "Unternehmen automatisiert",
+        "hoursSaved": "Stunden gespart",
+        "clientRevenueGenerated": "Kundenerlös generiert"
+    },
+    "pricing": {
+        "starter": "STARTER",
+        "enterprise": "ENTERPRISE",
+        "oneTimeSetup": "Einmalige Einrichtung",
+        "developmentImplementationFee": "Entwicklungs- & Implementierungsgebühr",
+        "customQuote": "Individuelles Angebot",
+        "plusMaintenance": "Plus {{amount}}/Monat Wartung",
+        "requestProposal": "Angebot anfordern",
+        "bookStrategyCall": "Strategiegespräch buchen",
+        "customKnowledgeBase": "Benutzerdefinierte Wissensdatenbank (Trainiert auf PDFs/Website)",
+        "standardChatbot": "Standard-Chatbot (nur Q&A, keine Aktionen)",
+        "threeLanguageSupport": "3-Sprachen-Unterstützung (Auto-Erkennung)",
+        "everythingInStarter": "Alles in Starter +",
+        "agenticAI": "Agentische KI (Führt Aktionen aus: Buchung, E-Mail)",
+        "deepAPIIntegration": "Tiefe API-Integration (WooCommerce/Buchungssysteme)"
+    },
+    "features": {
+        "subtitle": "Aucess KI-Chatbot Funktionen",
+        "title": "Bauen Sie den perfekten kundenorientierten KI-Agenten",
+        "button": "Bauen Sie Ihren KI-Chatbot - es ist kostenlos",
+        "items": {
+            "chatbot": {
+                "title": "Automatisieren mit intelligentem Chatbot",
+                "description": "Bearbeiten Sie Kundenanfragen sofort, reduzieren Sie wiederkehrende manuelle Aufgaben und steigern Sie die Kundenzufriedenheit mit unserer 24/7 KI-gestützten Chatbot-Automatisierung."
+            },
+            "realtime": {
+                "title": "Synchronisierung mit Echtzeitdaten",
+                "description": "Treffen Sie schnellere, datengesteuerte Entscheidungen auf Basis von Echtzeit-KI-Analysen und Vorhersagen."
+            },
+            "multilingual": {
+                "title": "Mehrsprachige Unterstützung",
+                "description": "Mehrsprachige Unterstützung ermöglicht es Ihnen, Kunden weltweit zu erreichen, indem Sprachbarrieren beseitigt werden."
+            },
+            "reporting": {
+                "title": "Erweitertes Reporting",
+                "description": "Erweitertes Reporting bietet detaillierte Einblicke und Daten, um Ihnen zu helfen, klügere Entscheidungen zu treffen."
+            },
+            "privacy": {
+                "title": "Datenschutz & Sicherheit",
+                "description": "Datenschutz & Sicherheit schützen Ihre Informationen und gewährleisten, dass sie jederzeit sicher bleiben."
+            }
+        }
+    },
+    "testimonials": {
+        "subtitle": "Referenzen",
+        "title_part1": "Hören Sie von unseren",
+        "title_part2": "zufriedenen Kunden",
+        "items": {
+            "somchai": {
+                "content": "\"Aucess automatisiert jetzt über 70% unserer Kundenanfragen und spart täglich Stunden manueller Arbeit. Es hat sowohl unsere Reaktionszeit als auch die allgemeine Kundenzufriedenheit verbessert.\"",
+                "author": "Somchai Srivat",
+                "position": "Marketingdirektor - Siam Innovations"
+            },
+            "bernard": {
+                "content": "\"Der Aufbau unserer SaaS-Anwendung für GreenInfina war mit Aucess nahtlos. Die Automatisierungsfunktionen haben die Arbeitsweise unserer Agentur komplett verändert.\"",
+                "author": "Bernard",
+                "position": "Gründer - GreenInfina"
+            },
+            "bruno": {
+                "content": "\"Die leistungsstarken Analysen von Aucess geben uns tiefe Einblicke in die Kundenbedürfnisse. Wir haben unsere Chatbot-Abläufe optimiert und ein spürbares Wachstum bei den Konversionen festgestellt.\"",
+                "author": "Bruno Safille",
+                "position": "Gründer - Lusterpix & Inspectana"
+            }
+        }
+    },
+    "process": {
+        "subtitle": "WIE ES FUNKTIONIERT",
+        "title": "Von Rohdaten zum autonomen Agenten",
+        "button": "Holen Sie sich Ihre Roadmap",
+        "steps": {
+            "discovery": "Entdeckung & Blaupause",
+            "connect": "Kanäle verbinden",
+            "analyze": "Analysieren & Optimieren"
+        }
+    },
+    "integrations": {
+        "subtitle": "NAHTLOSE ÖKOSYSTEM-INTEGRATION",
+        "title": "Ihr KI-Agent lebt nicht in einem Silo.",
+        "description": "Wir entwickeln benutzerdefinierte API-Brücken, um Echtzeitdaten zwischen Ihrem Chatbot und Ihrer bestehenden Software-Landschaft zu synchronisieren.",
+        "button": "Kompatibilität prüfen",
+        "features": {
+            "inventory": {
+                "title": "Live-Inventar & Buchungssynchronisierung",
+                "context": "Wir verbinden uns mit WooCommerce, Shopify oder Ihrem Hotelkalender, um Doppelbuchungen zu vermeiden."
+            },
+            "omnichannel": {
+                "title": "Omnichannel-Bereitstellung",
+                "context": "Ein Gehirn, überall. Setzen Sie denselben Agenten auf Ihrer Website, WhatsApp und Instagram ein."
+            },
+            "crm": {
+                "title": "CRM & Lead-Automatisierung",
+                "context": "Leiten Sie Leads direkt in HubSpot, Salesforce oder Google Sheets weiter, sobald sie chatten."
+            },
+            "payment": {
+                "title": "Zahlungsgateways",
+                "context": "Verarbeiten Sie sichere Transaktionen über Stripe oder PayPal direkt im Chat-Fenster."
+            }
+        },
+        "comparison": {
+            "without_title": "Traditioneller manueller Support",
+            "with_title": "Aucess Agentische Automatisierung",
+            "without": {
+                "dropoff": "Hohe Abbruchrate: Kunden gehen, wenn sie länger als 60 Sekunden warten.",
+                "hours": "Begrenzte Zeiten: Sie verpassen Buchungen/Verkäufe außerhalb der Geschäftszeiten von 9-17 Uhr.",
+                "language": "Sprachbarrieren: Verlust internationaler Touristen durch schlechte Übersetzung.",
+                "passive": "Passiver Support: Mitarbeiter warten darauf, dass Kunden Fragen stellen.",
+                "error": "Menschliches Versagen: Mitarbeiter vergessen, den Kalender zu aktualisieren oder Bestätigungs-E-Mails zu senden."
+            },
+            "with": {
+                "instant": "Sofortige Antwort: 0 Sekunden Latenz, Erfassung von Leads, sobald sie Interesse zeigen.",
+                "revenue": "24/7 Umsatz: Der Agent verarbeitet Buchungen und Zahlungen, während Sie schlafen.",
+                "fluency": "Muttersprachliche Kompetenz: Spricht Italienisch, Deutsch & Englisch perfekt (Kein \"Google Translate\"-Gefühl).",
+                "proactive": "Proaktiver Verkauf: Die KI schlägt automatisch Upgrades, Zimmer und Produkte vor.",
+                "integration": "Direkte Integration: Synchronisiert perfekt mit Ihrer Datenbank/CRM in Echtzeit."
+            }
+        }
+    },
+    "faq": {
+        "subtitle": "FAQ's",
+        "title": "Haben Sie eine Frage? Schauen Sie hier",
+        "questions": {
+            "q1": {
+                "question": "Brauche ich viele Daten, um den KI-Chatbot zu trainieren?",
+                "answer": "Sie brauchen nicht viel, um zu starten. Geben Sie einfach Ihre Website-URL an, und unser Tool wird Ihren KI-Chatbot automatisch scrapen und trainieren. Selbst mit begrenzten Daten können Sie Kundenfragen sammeln und den Bot weiter verbessern. Je mehr Daten Sie bereitstellen, desto intelligenter und effektiver wird er.",
+                "points": [
+                    "Sofortige Einrichtung – URL hinzufügen, und der Chatbot trainiert sich selbst.",
+                    "Selbstlernend – Lernt aus echten Kundenfragen.",
+                    "Intelligenter mit Daten – Mehr Daten bedeuten bessere Antworten."
+                ]
+            },
+            "q2": {
+                "question": "Wie lange dauert es, den Chatbot zu trainieren?",
+                "answer": "Sie brauchen nicht viel, um zu starten. Geben Sie einfach Ihre Website-URL an, und unser Tool wird Ihren KI-Chatbot automatisch scrapen und trainieren. Selbst mit begrenzten Daten können Sie Kundenfragen sammeln und den Bot weiter verbessern. Je mehr Daten Sie bereitstellen, desto intelligenter und effektiver wird er.",
+                "points": [
+                    "Sofortige Einrichtung – URL hinzufügen, und der Chatbot trainiert sich selbst.",
+                    "Selbstlernend – Lernt aus echten Kundenfragen.",
+                    "Intelligenter mit Daten – Mehr Daten bedeuten bessere Antworten."
+                ]
+            },
+            "q3": {
+                "question": "Wie kann ich den KI-Assistenten auf meiner Website einbetten?",
+                "answer": "Sie brauchen nicht viel, um zu starten. Geben Sie einfach Ihre Website-URL an, und unser Tool wird Ihren KI-Chatbot automatisch scrapen und trainieren. Selbst mit begrenzten Daten können Sie Kundenfragen sammeln und den Bot weiter verbessern. Je mehr Daten Sie bereitstellen, desto intelligenter und effektiver wird er.",
+                "points": [
+                    "Sofortige Einrichtung – URL hinzufügen, und der Chatbot trainiert sich selbst.",
+                    "Selbstlernend – Lernt aus echten Kundenfragen.",
+                    "Intelligenter mit Daten – Mehr Daten bedeuten bessere Antworten."
+                ]
+            },
+            "q4": {
+                "question": "Unterstützt er andere Sprachen als Englisch?",
+                "answer": "Sie brauchen nicht viel, um zu starten. Geben Sie einfach Ihre Website-URL an, und unser Tool wird Ihren KI-Chatbot automatisch scrapen und trainieren. Selbst mit begrenzten Daten können Sie Kundenfragen sammeln und den Bot weiter verbessern. Je mehr Daten Sie bereitstellen, desto intelligenter und effektiver wird er.",
+                "points": [
+                    "Sofortige Einrichtung – URL hinzufügen, und der Chatbot trainiert sich selbst.",
+                    "Selbstlernend – Lernt aus echten Kundenfragen.",
+                    "Intelligenter mit Daten – Mehr Daten bedeuten bessere Antworten."
+                ]
+            },
+            "q5": {
+                "question": "Kann ich bei Bedarf die Kontrolle über ein Gespräch übernehmen?",
+                "answer": "Sie brauchen nicht viel, um zu starten. Geben Sie einfach Ihre Website-URL an, und unser Tool wird Ihren KI-Chatbot automatisch scrapen und trainieren. Selbst mit begrenzten Daten können Sie Kundenfragen sammeln und den Bot weiter verbessern. Je mehr Daten Sie bereitstellen, desto intelligenter und effektiver wird er.",
+                "points": [
+                    "Sofortige Einrichtung – URL hinzufügen, und der Chatbot trainiert sich selbst.",
+                    "Selbstlernend – Lernt aus echten Kundenfragen.",
+                    "Intelligenter mit Daten – Mehr Daten bedeuten bessere Antworten."
+                ]
+            }
+        }
+    },
+    "cta": {
+        "subtitle": "SPAREN SIE STUNDEN MIT KI-CHATBOT",
+        "title": "Hören Sie auf, Zeit mit Support zu verschwenden",
+        "button": "Bauen Sie Ihren KI-Chatbot - es ist kostenlos"
+    },
+    "footer": {
+        "socialGroup": "Treten Sie unserer sozialen Gruppe bei",
+        "subscribe": "Abonnieren Sie unseren Newsletter",
+        "emailPlaceholder": "Geben Sie Ihre E-Mail ein",
+        "submit": "absenden",
+        "cantAfford": "Sie können es sich nicht leisten?",
+        "startFree": "kostenlos starten",
+        "copyright": "Urheberrecht © {{year}} Aucess, Alle Rechte vorbehalten.",
+        "terms": "Allgemeine Geschäftsbedingungen",
+        "privacy": "Datenschutzrichtlinie"
+    }
+}

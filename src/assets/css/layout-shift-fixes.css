@@ -1,0 +1,23 @@
+/* Layout Shift Fixes */
+
+/* Reserve space for images */
+img {
+    aspect-ratio: attr(width) / attr(height);
+}
+
+/* Fix for Hero Section layout shift */
+.hero-img-container {
+    min-height: 500px;
+}
+
+/* Fix for Header layout shift */
+.xb-header-logo img {
+    aspect-ratio: 148 / 40;
+}
+
+/* Fix for LazyImage placeholder */
+.lazy-image-placeholder {
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 100%;
+}

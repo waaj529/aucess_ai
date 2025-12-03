@@ -1,0 +1,214 @@
+{
+    "nav": {
+        "aiSolutions": "Soluzioni AI",
+        "forAgencies": "Per Agenzie",
+        "caseStudies": "Casi Studio",
+        "aboutAucess": "Chi Siamo",
+        "contactUs": "Contattaci",
+        "bookDemo": "Prenota Demo"
+    },
+    "hero": {
+        "title": "Progettiamo Agenti AI Intelligenti per la Tua Azienda.",
+        "description": "Aucess è specializzata nella creazione di AI Agentiche personalizzate che si integrano direttamente nel tuo sito web e in altre piattaforme di social media e automatizzano la tua attività. Non rispondiamo solo alle domande; automatizziamo prenotazioni, vendite e supporto.",
+        "getFreeConsultation": "Ottieni la Tua Consulenza Gratuita",
+        "viewCaseStudies": "Visualizza Casi Studio",
+        "agenticAI": "AI Agentica",
+        "autoActions": "Azioni Auto",
+        "booking": "Prenotazione",
+        "wpIntegration": "Integrazione WP",
+        "plugins": "Plugin",
+        "setup": "Configurazione",
+        "multilingual": "Multilingue",
+        "fiftyPlusLang": "50+ Lingue",
+        "zeroLatency": "Latenza Zero",
+        "bookStrategyCall": "Prenota Chiamata Strategica",
+        "seeLiveDemo": "Vedi Demo Live",
+        "businessesAutomated": "Aziende Automatizzate",
+        "hoursSaved": "Ore Risparmiate",
+        "clientRevenueGenerated": "Entrate Cliente Generate"
+    },
+    "pricing": {
+        "starter": "STARTER",
+        "enterprise": "ENTERPRISE",
+        "oneTimeSetup": "Configurazione Una Tantum",
+        "developmentImplementationFee": "Tariffa di Sviluppo e Implementazione",
+        "customQuote": "Preventivo Personalizzato",
+        "plusMaintenance": "Più {{amount}}/mese manutenzione",
+        "requestProposal": "Richiedi Proposta",
+        "bookStrategyCall": "Prenota Chiamata Strategica",
+        "customKnowledgeBase": "Base di Conoscenza Personalizzata (Addestrata su PDF/Sito)",
+        "standardChatbot": "Chatbot Standard (solo Q&A, nessuna azione)",
+        "threeLanguageSupport": "Supporto 3 Lingue (Auto-rileva)",
+        "everythingInStarter": "Tutto in Starter +",
+        "agenticAI": "IA Agentica (Esegue azioni: Prenotazione, Email)",
+        "deepAPIIntegration": "Integrazione API Profonda (WooCommerce/Motori di Prenotazione)"
+    },
+    "features": {
+        "subtitle": "Funzionalità Chatbot IA Aucess",
+        "title": "Costruisci l'agente IA perfetto per i tuoi clienti",
+        "button": "Crea il tuo chatbot IA - è gratis",
+        "items": {
+            "chatbot": {
+                "title": "Automatizza con chatbot intelligente",
+                "description": "Gestisci le richieste dei clienti istantaneamente, riduci le attività manuali ripetitive e aumenta la soddisfazione del cliente con la nostra automazione chatbot IA attiva 24/7."
+            },
+            "realtime": {
+                "title": "Sincronizzazione con dati in tempo reale",
+                "description": "Prendi decisioni più rapide e basate sui dati grazie all'analisi e alla previsione IA in tempo reale."
+            },
+            "multilingual": {
+                "title": "Supporto multilingue",
+                "description": "Il supporto multilingue ti consente di connetterti con clienti in tutto il mondo eliminando le barriere linguistiche."
+            },
+            "reporting": {
+                "title": "Reporting avanzato",
+                "description": "Il reporting avanzato fornisce approfondimenti dettagliati e dati per aiutarti a prendere decisioni più intelligenti."
+            },
+            "privacy": {
+                "title": "Privacy e sicurezza dei dati",
+                "description": "La privacy e la sicurezza dei dati proteggono le tue informazioni, garantendo che rimangano sicure in ogni momento."
+            }
+        }
+    },
+    "testimonials": {
+        "subtitle": "Testimonianze",
+        "title_part1": "Ascolta i nostri",
+        "title_part2": "clienti soddisfatti",
+        "items": {
+            "somchai": {
+                "content": "\"Aucess ora automatizza oltre il 70% delle richieste dei nostri clienti, risparmiando ore di lavoro manuale ogni giorno. Ha migliorato sia i nostri tempi di risposta che la soddisfazione complessiva del cliente.\"",
+                "author": "Somchai Srivat",
+                "position": "Direttore Marketing - Siam Innovations"
+            },
+            "bernard": {
+                "content": "\"Costruire la nostra applicazione SaaS per GreenInfina è stato semplice con Aucess. Le capacità di automazione hanno trasformato completamente il modo in cui opera la nostra agenzia.\"",
+                "author": "Bernard",
+                "position": "Fondatore - GreenInfina"
+            },
+            "bruno": {
+                "content": "\"Le potenti analisi di Aucess ci forniscono approfondimenti sui bisogni dei clienti. Abbiamo ottimizzato i flussi del nostro chatbot e visto una crescita notevole nelle conversioni.\"",
+                "author": "Bruno Safille",
+                "position": "Fondatore - Lusterpix & Inspectana"
+            }
+        }
+    },
+    "process": {
+        "subtitle": "COME FUNZIONA",
+        "title": "Dai dati grezzi all'agente autonomo",
+        "button": "Ottieni la tua roadmap",
+        "steps": {
+            "discovery": "Scoperta & Progetto",
+            "connect": "Collega i canali",
+            "analyze": "Analizza & Ottimizza"
+        }
+    },
+    "integrations": {
+        "subtitle": "INTEGRAZIONE DELL'ECOSISTEMA SENZA INTERRUZIONI",
+        "title": "Il tuo agente IA non vive in un silos.",
+        "description": "Progettiamo ponti API personalizzati per sincronizzare i dati in tempo reale tra il tuo chatbot e il tuo stack software esistente.",
+        "button": "Verifica compatibilità",
+        "features": {
+            "inventory": {
+                "title": "Sincronizzazione inventario e prenotazioni in tempo reale",
+                "context": "Ci colleghiamo a WooCommerce, Shopify o al calendario del tuo hotel per prevenire le doppie prenotazioni."
+            },
+            "omnichannel": {
+                "title": "Distribuzione omnicanale",
+                "context": "Un cervello, ovunque. Distribuisci lo stesso agente sul tuo sito web, WhatsApp e Instagram."
+            },
+            "crm": {
+                "title": "CRM e automazione dei lead",
+                "context": "Invia i lead direttamente in HubSpot, Salesforce o Google Sheets nel momento in cui chattano."
+            },
+            "payment": {
+                "title": "Gateway di pagamento",
+                "context": "Elabora transazioni sicure tramite Stripe o PayPal direttamente nella finestra della chat."
+            }
+        },
+        "comparison": {
+            "without_title": "Supporto manuale tradizionale",
+            "with_title": "Automazione agentica Aucess",
+            "without": {
+                "dropoff": "Alto tasso di abbandono: i clienti se ne vanno se aspettano più di 60 secondi.",
+                "hours": "Orari limitati: perdi prenotazioni/vendite al di fuori dell'orario lavorativo 9-17.",
+                "language": "Barriere linguistiche: perdita di turisti internazionali a causa di traduzioni scadenti.",
+                "passive": "Supporto passivo: il personale aspetta che i clienti facciano domande.",
+                "error": "Errore umano: il personale dimentica di aggiornare il calendario o inviare e-mail di conferma."
+            },
+            "with": {
+                "instant": "Risposta istantanea: latenza 0 secondi, cattura i lead nel momento in cui mostrano interesse.",
+                "revenue": "Entrate 24/7: l'agente elabora prenotazioni e pagamenti mentre dormi.",
+                "fluency": "Fluenza nativa: parla italiano, tedesco e inglese perfettamente (nessuna sensazione \"Google Translate\").",
+                "proactive": "Vendita proattiva: l'IA suggerisce automaticamente upgrade, camere e prodotti.",
+                "integration": "Integrazione diretta: si sincronizza perfettamente con il tuo database/CRM in tempo reale."
+            }
+        }
+    },
+    "faq": {
+        "subtitle": "FAQ",
+        "title": "Hai una domanda? Guarda qui",
+        "questions": {
+            "q1": {
+                "question": "Ho bisogno di molti dati per addestrare il chatbot IA?",
+                "answer": "Non hai bisogno di molto per iniziare. Fornisci semplicemente l'URL del tuo sito web e il nostro strumento scansionerà e addestrerà automaticamente il tuo chatbot IA. Anche con dati limitati, puoi raccogliere le domande dei clienti e continuare a migliorare il bot. Più dati fornisci, più intelligente ed efficace diventa.",
+                "points": [
+                    "Configurazione istantanea – Aggiungi il tuo URL e il chatbot si addestra da solo.",
+                    "Auto-apprendimento – Impara dalle vere domande dei clienti.",
+                    "Più intelligente con i dati – Più dati significano risposte migliori."
+                ]
+            },
+            "q2": {
+                "question": "Quanto tempo ci vuole per addestrare il chatbot?",
+                "answer": "Non hai bisogno di molto per iniziare. Fornisci semplicemente l'URL del tuo sito web e il nostro strumento scansionerà e addestrerà automaticamente il tuo chatbot IA. Anche con dati limitati, puoi raccogliere le domande dei clienti e continuare a migliorare il bot. Più dati fornisci, più intelligente ed efficace diventa.",
+                "points": [
+                    "Configurazione istantanea – Aggiungi il tuo URL e il chatbot si addestra da solo.",
+                    "Auto-apprendimento – Impara dalle vere domande dei clienti.",
+                    "Più intelligente con i dati – Più dati significano risposte migliori."
+                ]
+            },
+            "q3": {
+                "question": "Come posso incorporare l'assistente IA sul mio sito web?",
+                "answer": "Non hai bisogno di molto per iniziare. Fornisci semplicemente l'URL del tuo sito web e il nostro strumento scansionerà e addestrerà automaticamente il tuo chatbot IA. Anche con dati limitati, puoi raccogliere le domande dei clienti e continuare a migliorare il bot. Più dati fornisci, più intelligente ed efficace diventa.",
+                "points": [
+                    "Configurazione istantanea – Aggiungi il tuo URL e il chatbot si addestra da solo.",
+                    "Auto-apprendimento – Impara dalle vere domande dei clienti.",
+                    "Più intelligente con i dati – Più dati significano risposte migliori."
+                ]
+            },
+            "q4": {
+                "question": "Supporta altre lingue oltre all'inglese?",
+                "answer": "Non hai bisogno di molto per iniziare. Fornisci semplicemente l'URL del tuo sito web e il nostro strumento scansionerà e addestrerà automaticamente il tuo chatbot IA. Anche con dati limitati, puoi raccogliere le domande dei clienti e continuare a migliorare il bot. Più dati fornisci, più intelligente ed efficace diventa.",
+                "points": [
+                    "Configurazione istantanea – Aggiungi il tuo URL e il chatbot si addestra da solo.",
+                    "Auto-apprendimento – Impara dalle vere domande dei clienti.",
+                    "Più intelligente con i dati – Più dati significano risposte migliori."
+                ]
+            },
+            "q5": {
+                "question": "Posso prendere il controllo di una conversazione se necessario?",
+                "answer": "Non hai bisogno di molto per iniziare. Fornisci semplicemente l'URL del tuo sito web e il nostro strumento scansionerà e addestrerà automaticamente il tuo chatbot IA. Anche con dati limitati, puoi raccogliere le domande dei clienti e continuare a migliorare il bot. Più dati fornisci, più intelligente ed efficace diventa.",
+                "points": [
+                    "Configurazione istantanea – Aggiungi il tuo URL e il chatbot si addestra da solo.",
+                    "Auto-apprendimento – Impara dalle vere domande dei clienti.",
+                    "Più intelligente con i dati – Più dati significano risposte migliori."
+                ]
+            }
+        }
+    },
+    "cta": {
+        "subtitle": "RISPARMIA ORE CON IL CHATBOT IA",
+        "title": "Smetti di perdere tempo con il supporto",
+        "button": "Crea il tuo chatbot IA - è gratis"
+    },
+    "footer": {
+        "socialGroup": "Unisciti al nostro gruppo social",
+        "subscribe": "Iscriviti alla nostra newsletter",
+        "emailPlaceholder": "Inserisci la tua email",
+        "submit": "invia",
+        "cantAfford": "non puoi permettertelo?",
+        "startFree": "inizia gratis",
+        "copyright": "Copyright © {{year}} Aucess, Tutti i diritti riservati.",
+        "terms": "Termini e condizioni",
+        "privacy": "Informativa sulla privacy"
+    }
+}

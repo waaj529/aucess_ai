@@ -1,0 +1,93 @@
+
+> aivora-react@0.0.0 lint
+> eslint .
+
+
+/Users/mac/aivora-html-package 3/aivora-react/OKComputer_Cyberpunk RAG Training UI/main.js
+   33:15  error  'startBtn' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u   no-unused-vars
+   34:15  error  'pauseBtn' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u   no-unused-vars
+   35:15  error  'stopBtn' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u    no-unused-vars
+   50:17  error  'anime' is not defined                                                                     no-undef
+   59:17  error  'anime' is not defined                                                                     no-undef
+   82:9   error  'anime' is not defined                                                                     no-undef
+  125:13  error  'anime' is not defined                                                                     no-undef
+  137:13  error  'anime' is not defined                                                                     no-undef
+  149:13  error  'anime' is not defined                                                                     no-undef
+  182:13  error  'anime' is not defined                                                                     no-undef
+  198:13  error  'anime' is not defined                                                                     no-undef
+  223:17  error  'anime' is not defined                                                                     no-undef
+  239:13  error  'anime' is not defined                                                                     no-undef
+  259:9   error  'anime' is not defined                                                                     no-undef
+  274:21  error  'anime' is not defined                                                                     no-undef
+  306:17  error  'anime' is not defined                                                                     no-undef
+  374:10  error  'createGlitchEffect' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  394:10  error  'addNeonGlow' is defined but never used. Allowed unused vars must match /^[A-Z_]/u         no-unused-vars
+  461:5   error  'anime' is not defined                                                                     no-undef
+
+/Users/mac/aivora-html-package 3/aivora-react/scripts/optimize-images-webp.js
+  31:19  error  'metadata' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+/Users/mac/aivora-html-package 3/aivora-react/scripts/optimize-images.js
+  69:9  error  'process' is not defined  no-undef
+
+/Users/mac/aivora-html-package 3/aivora-react/src/components/CyberpunkConsole/AnalyticsPage.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+/Users/mac/aivora-html-package 3/aivora-react/src/components/CyberpunkConsole/ConfigurationPage.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+/Users/mac/aivora-html-package 3/aivora-react/src/components/CyberpunkConsole/CyberpunkConsole.jsx
+   2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          no-unused-vars
+  32:13  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+  30 |     useEffect(() => {
+  31 |         if (trainingProgress >= 100) {
+> 32 |             setIsTraining(false);
+     |             ^^^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  33 |         }
+  34 |     }, [trainingProgress]);
+  35 |  react-hooks/set-state-in-effect
+
+/Users/mac/aivora-html-package 3/aivora-react/src/components/CyberpunkConsole/PipelinePage.jsx
+  1:27  error  'useEffect' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+
+/Users/mac/aivora-html-package 3/aivora-react/src/components/LogicMapper/DataStream.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+/Users/mac/aivora-html-package 3/aivora-react/src/components/LogicMapper/GlassCard.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  8:65  error  'delay' is defined but never used                                              no-unused-vars
+
+/Users/mac/aivora-html-package 3/aivora-react/src/components/LogicMapper/LazyLogicMapper.jsx
+  32:49  warning  The ref value 'containerRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'containerRef.current' to a variable inside the effect, and use that variable in the cleanup function  react-hooks/exhaustive-deps
+
+/Users/mac/aivora-html-package 3/aivora-react/src/components/LogicMapper/LogicMapper.jsx
+   4:10  error    'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                                              no-unused-vars
+  84:8   warning  React Hook React.useCallback has missing dependencies: 'inputCards' and 'outputIcons'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+/Users/mac/aivora-html-package 3/aivora-react/src/components/LogicMapper/OutputIcon.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+/Users/mac/aivora-html-package 3/aivora-react/src/components/UI/LanguageDropdown.jsx
+   49:9   error    'setIsOpen' is not defined                                                                                                                                                                                                        no-undef
+   54:9   error    'setIsOpen' is not defined                                                                                                                                                                                                        no-undef
+   54:20  error    'isOpen' is not defined                                                                                                                                                                                                           no-undef
+   60:17  error    'isOpen' is not defined                                                                                                                                                                                                           no-undef
+   61:17  error    'setIsOpen' is not defined                                                                                                                                                                                                        no-undef
+   69:8   warning  React Hook useEffect has an unnecessary dependency: 'isOpen'. Either exclude it or remove the dependency array. Outer scope values like 'isOpen' aren't valid dependencies because mutating them doesn't re-render the component  react-hooks/exhaustive-deps
+   69:9   error    'isOpen' is not defined                                                                                                                                                                                                           no-undef
+   81:31  error    'getFlagSrc' is not defined                                                                                                                                                                                                       no-undef
+   88:35  error    'isOpen' is not defined                                                                                                                                                                                                           no-undef
+   91:22  error    'getOtherLocales' is not defined                                                                                                                                                                                                  no-undef
+   93:42  error    'getLanguageName' is not defined                                                                                                                                                                                                  no-undef
+  100:54  error    'getFlagSrc' is not defined                                                                                                                                                                                                       no-undef
+
+✖ 46 problems (43 errors, 3 warnings)
+
