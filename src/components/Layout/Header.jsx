@@ -33,12 +33,16 @@ const Header = () => {
 
     // Handle scroll to section if hash is present in URL
     useEffect(() => {
-        if (location.hash) {
-            const element = document.querySelector(location.hash);
-            if (element) {
-                setTimeout(() => {
-                    element.scrollIntoView({ behavior: 'smooth' });
-                }, 100);
+        if (location.hash && location.hash !== '#!') {
+            try {
+                const element = document.querySelector(location.hash);
+                if (element) {
+                    setTimeout(() => {
+                        element.scrollIntoView({ behavior: 'smooth' });
+                    }, 100);
+                }
+            } catch {
+                console.warn('Invalid hash selector:', location.hash);
             }
         }
     }, [location]);
@@ -62,7 +66,8 @@ const Header = () => {
         }
     };
 
-    const toggleMobileMenu = () => {
+    const toggleMobileMenu = (e) => {
+        e.preventDefault();
         setIsMobileMenuOpen(!isMobileMenuOpen);
     };
 
@@ -121,7 +126,7 @@ const Header = () => {
                             </div>
                         </div>
                         <div className="header-bar-mobile side-menu d-lg-none">
-                            <a className="xb-nav-mobile" href="#!" onClick={toggleMobileMenu} aria-label="Toggle mobile menu">
+                            <a className="xb-nav-mobile" href="#" onClick={toggleMobileMenu} aria-label="Toggle mobile menu">
                                 <FontAwesomeIcon icon={Icons.Bars} />
                             </a>
                         </div>

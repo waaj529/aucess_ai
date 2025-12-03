@@ -9,16 +9,16 @@ const ContactInfo = () => {
                         <div className="xb-contact-items img-hove-effect xb-border">
                             <div className="xb-item--inner">
                                 <div className="xb-img">
-                                    <a href="#!"><img src="/assets/img/contact/img01.png" alt="image" /></a>
-                                    <a href="#!"><img src="/assets/img/contact/img01.png" alt="image" /></a>
-                                    <a href="#!"><img src="/assets/img/contact/img01.png" alt="image" /></a>
-                                    <a href="#!"><img src="/assets/img/contact/img01.png" alt="image" /></a>
+                                    <a href="#" onClick={(e) => e.preventDefault()}><img src="/assets/img/contact/img01.png" alt="image" /></a>
+                                    <a href="#" onClick={(e) => e.preventDefault()}><img src="/assets/img/contact/img01.png" alt="image" /></a>
+                                    <a href="#" onClick={(e) => e.preventDefault()}><img src="/assets/img/contact/img01.png" alt="image" /></a>
+                                    <a href="#" onClick={(e) => e.preventDefault()}><img src="/assets/img/contact/img01.png" alt="image" /></a>
                                 </div>
                                 <div className="xb-item--holder">
                                     <p className="xb-item--location">San Francisco, USA</p>
                                     <span className="xb-item--contact_info">+(1) 561 555 7689</span>
                                     <span className="xb-item--contact_info">contact@aucess.tech</span>
-                                    <a href="#!" className="thm-btn form-btn mt-45">
+                                    <a href="#" onClick={(e) => e.preventDefault()} className="thm-btn form-btn mt-45">
                                         VIEW LOCATION
                                         <span className="xb-icon">
                                             <img src="/assets/img/icon/rotate-arrow-white02.svg" alt="icon" />
@@ -33,16 +33,16 @@ const ContactInfo = () => {
                         <div className="xb-contact-items img-hove-effect xb-border">
                             <div className="xb-item--inner">
                                 <div className="xb-img">
-                                    <a href="#!"><img src="/assets/img/contact/img02.png" alt="image" /></a>
-                                    <a href="#!"><img src="/assets/img/contact/img02.png" alt="image" /></a>
-                                    <a href="#!"><img src="/assets/img/contact/img02.png" alt="image" /></a>
-                                    <a href="#!"><img src="/assets/img/contact/img02.png" alt="image" /></a>
+                                    <a href="#" onClick={(e) => e.preventDefault()}><img src="/assets/img/contact/img02.png" alt="image" /></a>
+                                    <a href="#" onClick={(e) => e.preventDefault()}><img src="/assets/img/contact/img02.png" alt="image" /></a>
+                                    <a href="#" onClick={(e) => e.preventDefault()}><img src="/assets/img/contact/img02.png" alt="image" /></a>
+                                    <a href="#" onClick={(e) => e.preventDefault()}><img src="/assets/img/contact/img02.png" alt="image" /></a>
                                 </div>
                                 <div className="xb-item--holder">
                                     <p className="xb-item--location">Rome, Italy</p>
                                     <span className="xb-item--contact_info">+39 06 1234 5678</span>
                                     <span className="xb-item--contact_info">contact@aucess.tech</span>
-                                    <a href="#!" className="thm-btn form-btn mt-45">
+                                    <a href="#" onClick={(e) => e.preventDefault()} className="thm-btn form-btn mt-45">
                                         VIEW LOCATION
                                         <span className="xb-icon">
                                             <img src="/assets/img/icon/rotate-arrow-white02.svg" alt="icon" />
@@ -57,16 +57,16 @@ const ContactInfo = () => {
                         <div className="xb-contact-items img-hove-effect xb-border">
                             <div className="xb-item--inner">
                                 <div className="xb-img">
-                                    <a href="#!"><img src="/assets/img/contact/img03.png" alt="image" /></a>
-                                    <a href="#!"><img src="/assets/img/contact/img03.png" alt="image" /></a>
-                                    <a href="#!"><img src="/assets/img/contact/img03.png" alt="image" /></a>
-                                    <a href="#!"><img src="/assets/img/contact/img03.png" alt="image" /></a>
+                                    <a href="#" onClick={(e) => e.preventDefault()}><img src="/assets/img/contact/img03.png" alt="image" /></a>
+                                    <a href="#" onClick={(e) => e.preventDefault()}><img src="/assets/img/contact/img03.png" alt="image" /></a>
+                                    <a href="#" onClick={(e) => e.preventDefault()}><img src="/assets/img/contact/img03.png" alt="image" /></a>
+                                    <a href="#" onClick={(e) => e.preventDefault()}><img src="/assets/img/contact/img03.png" alt="image" /></a>
                                 </div>
                                 <div className="xb-item--holder">
                                     <p className="xb-item--location">Islamabad, Pakistan</p>
                                     <span className="xb-item--contact_info">+92 51 123 4567</span>
                                     <span className="xb-item--contact_info">contact@aucess.tech</span>
-                                    <a href="#!" className="thm-btn form-btn mt-45">
+                                    <a href="#" onClick={(e) => e.preventDefault()} className="thm-btn form-btn mt-45">
                                         VIEW LOCATION
                                         <span className="xb-icon">
                                             <img src="/assets/img/icon/rotate-arrow-white02.svg" alt="icon" />

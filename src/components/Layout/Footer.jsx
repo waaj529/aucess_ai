@@ -58,7 +58,7 @@ const Footer = () => {
                                         <p className="sub-title">{t('footer.socialGroup')}</p>
                                         <ul className="xb-social_icon ul_li list-unstyled">
                                             <li>
-                                                <a href="#!">
+                                                <a href="#" onClick={(e) => e.preventDefault()}>
                                                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
                                                         xmlns="http://www.w3.org/2000/svg">
                                                         <path fillRule="evenodd" clipRule="evenodd"
@@ -68,7 +68,7 @@ const Footer = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#!">
+                                                <a href="#" onClick={(e) => e.preventDefault()}>
                                                     <svg width="20" height="16" viewBox="0 0 20 16" fill="none"
                                                         xmlns="http://www.w3.org/2000/svg">
                                                         <path fillRule="evenodd" clipRule="evenodd"
@@ -78,7 +78,7 @@ const Footer = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#!">
+                                                <a href="#" onClick={(e) => e.preventDefault()}>
                                                     <FontAwesomeIcon icon={Icons.Github} />
                                                 </a>
                                             </li>
@@ -90,7 +90,7 @@ const Footer = () => {
                                 <div className="col-lg-6 col-md-7 footer-col">
                                     <div className="xb-footer-item xb-newsletter">
                                         <p className="sub-title">{t('footer.subscribe')}</p>
-                                        <form action="#!" className="xb-footer-input-form">
+                                        <form action="#" onSubmit={(e) => e.preventDefault()} className="xb-footer-input-form">
                                             <input type="text" placeholder={t('footer.emailPlaceholder')} />
                                             <button type="submit">{t('footer.submit')}</button>
                                         </form>

@@ -60,7 +60,7 @@ const HeroSection = () => {
                     </div>
                     <div className="col-lg-6">
                         <div className="hero-img-container">
-                            <div className="xb-img xb-floating" data-aos="fade-left" data-aos-duration="800" style={{ marginTop: '-80px' }}>
+                            <div className="xb-img xb-floating hero-main-img" data-aos="fade-left" data-aos-duration="800">
                                 <img src="https://ik.imagekit.io/l1mhaygkv/Untitled%20design%20(20).svg?updatedAt=1764358961002" alt="image" width="600" height="600" />
                             </div>
 
@@ -118,20 +118,20 @@ const HeroSection = () => {
                             </div>
 
                             {/* Bottom System Performance Bar */}
-                            <div className="hero-system-stats" style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', width: '100%', padding: '12px 20px', background: 'rgba(255, 255, 255, 0.08)', backdropFilter: 'blur(15px)', borderRadius: '10px', border: '1px solid rgba(255, 255, 255, 0.15)' }}>
-                                <div className="stat-item" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '2px' }}>
-                                    <span className="stat-value" style={{ fontSize: '24px', fontWeight: '700', color: '#fff', lineHeight: '1', marginBottom: '2px' }}>150+</span>
-                                    <span className="stat-unit" style={{ fontSize: '9px', color: 'rgba(255, 255, 255, 0.65)', textTransform: 'uppercase', letterSpacing: '0.6px', fontWeight: '500' }}>{t('hero.businessesAutomated')}</span>
+                            <div className="hero-system-stats">
+                                <div className="stat-item">
+                                    <span className="stat-value">150+</span>
+                                    <span className="stat-unit">{t('hero.businessesAutomated')}</span>
                                 </div>
-                                <div className="stat-divider" style={{ width: '1px', height: '28px', background: 'rgba(255, 255, 255, 0.2)' }}></div>
-                                <div className="stat-item" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '2px' }}>
-                                    <span className="stat-value" style={{ fontSize: '24px', fontWeight: '700', color: '#fff', lineHeight: '1', marginBottom: '2px' }}>10k+</span>
-                                    <span className="stat-unit" style={{ fontSize: '9px', color: 'rgba(255, 255, 255, 0.65)', textTransform: 'uppercase', letterSpacing: '0.6px', fontWeight: '500' }}>{t('hero.hoursSaved')}</span>
+                                <div className="stat-divider"></div>
+                                <div className="stat-item">
+                                    <span className="stat-value">10k+</span>
+                                    <span className="stat-unit">{t('hero.hoursSaved')}</span>
                                 </div>
-                                <div className="stat-divider" style={{ width: '1px', height: '28px', background: 'rgba(255, 255, 255, 0.2)' }}></div>
-                                <div className="stat-item" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '2px' }}>
-                                    <span className="stat-value" style={{ fontSize: '24px', fontWeight: '700', color: '#fff', lineHeight: '1', marginBottom: '2px' }}>$500k+</span>
-                                    <span className="stat-unit" style={{ fontSize: '9px', color: 'rgba(255, 255, 255, 0.65)', textTransform: 'uppercase', letterSpacing: '0.6px', fontWeight: '500' }}>{t('hero.clientRevenueGenerated')}</span>
+                                <div className="stat-divider"></div>
+                                <div className="stat-item">
+                                    <span className="stat-value">$500k+</span>
+                                    <span className="stat-unit">{t('hero.clientRevenueGenerated')}</span>
                                 </div>
                             </div>
 
