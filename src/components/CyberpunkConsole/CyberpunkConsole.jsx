@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
+import { motion } from 'framer-motion'; // eslint-disable-line no-unused-vars
 import './CyberpunkConsole.css';
 import ConfigurationPage from './ConfigurationPage';
 import AnalyticsPage from './AnalyticsPage';
