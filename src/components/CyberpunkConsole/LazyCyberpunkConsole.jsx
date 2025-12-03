@@ -33,7 +33,7 @@ const LazyCyberpunkConsole = () => {
                 observer.unobserve(currentContainer);
             }
         };
-    }, []); // eslint-disable-line react-hooks/exhaustive-deps
+    }, []);
 
     return (
         <div ref={containerRef} style={{ minHeight: '600px', width: '100%', position: 'relative' }}>

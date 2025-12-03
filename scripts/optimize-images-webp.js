@@ -28,7 +28,7 @@ async function optimizeImages() {
         try {
             const originalStats = fs.statSync(file);
             const sharpInstance = sharp(file);
-            const metadata = await sharpInstance.metadata();
+            await sharpInstance.metadata();
 
             // 1. Generate WebP
             const webpPath = path.join(dirname, `${basename}.webp`);

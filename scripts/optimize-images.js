@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-env node */
 
 /**
  * Image Optimization Script
@@ -66,5 +67,5 @@ walkDirectory(IMG_DIR)
     })
     .catch((error) => {
         console.error('\n❌ Image optimization failed:', error);
-        process.exit(1);
+        process.exit(1); // eslint-disable-line no-undef
     });
