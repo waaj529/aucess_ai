@@ -15,12 +15,10 @@ const ContactForm = () => {
         const PUBLIC_KEY = 'oNqEi91BAi5MpB1oR';
 
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
-            .then((result) => {
-                console.log(result.text);
+            .then(() => {
                 setStatus('success');
                 form.current.reset();
-            }, (error) => {
-                console.log(error.text);
+            }, () => {
                 setStatus('error');
             });
     };

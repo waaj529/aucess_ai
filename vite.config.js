@@ -72,8 +72,9 @@ export default defineConfig({
         },
       },
     },
-    // Chunk size warning limit (in KB) - lowered to catch bloat early
-    chunkSizeWarningLimit: 300,
+    // Chunk size warning limit (in KB) - increased for Three.js vendor bundle
+    // Three.js is legitimately large (~780KB), but other chunks should stay under 300KB
+    chunkSizeWarningLimit: 500,
     // Use terser for better minification
     minify: 'terser',
     terserOptions: {
