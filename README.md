@@ -1,4 +1,4 @@
-# Aivora React - AI Chatbot Agency Website
+# Aucess React - AI Chatbot Agency Website
 
 Modern React.js conversion of the Aivora HTML template, built with Vite for optimal performance.
 
