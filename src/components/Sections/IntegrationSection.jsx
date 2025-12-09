@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Button from '../UI/Button';
 import { integrationLogos, integrationFeatures, comparisonData } from '../../data/integrations';
-import LazyImage from '../UI/LazyImage';
+import OptimizedImage from '../UI/OptimizedImage';
 
 /**
  * CheckIcon component for feature lists
@@ -75,7 +75,7 @@ const IntegrationSection = () => {
                                 <div className="integration-logo-inner marquee-first">
                                     {[...integrationLogos.row1, ...integrationLogos.row1].map((logo, index) => (
                                         <div key={`row1-${index}`} className="integration-logo">
-                                            <LazyImage src={logo.image} alt={logo.name} disableSrcSet={true} />
+                                            <OptimizedImage src={logo.image} alt={logo.name} width={60} height={60} placeholder="empty" />
                                         </div>
                                     ))}
                                 </div>
@@ -83,7 +83,7 @@ const IntegrationSection = () => {
                                 <div className="integration-logo-inner marquee2">
                                     {[...integrationLogos.row2, ...integrationLogos.row2].map((logo, index) => (
                                         <div key={`row2-${index}`} className="integration-logo">
-                                            <LazyImage src={logo.image} alt={logo.name} disableSrcSet={true} />
+                                            <OptimizedImage src={logo.image} alt={logo.name} width={60} height={60} placeholder="empty" />
                                         </div>
                                     ))}
                                 </div>
@@ -91,7 +91,7 @@ const IntegrationSection = () => {
                                 <div className="integration-logo-inner marquee-first">
                                     {[...integrationLogos.row3, ...integrationLogos.row3].map((logo, index) => (
                                         <div key={`row3-${index}`} className="integration-logo">
-                                            <LazyImage src={logo.image} alt={logo.name} disableSrcSet={true} />
+                                            <OptimizedImage src={logo.image} alt={logo.name} width={60} height={60} placeholder="empty" />
                                         </div>
                                     ))}
                                 </div>
@@ -99,7 +99,7 @@ const IntegrationSection = () => {
                                 <div className="integration-logo-inner marquee2">
                                     {[...integrationLogos.row4, ...integrationLogos.row4].map((logo, index) => (
                                         <div key={`row4-${index}`} className="integration-logo">
-                                            <LazyImage src={logo.image} alt={logo.name} disableSrcSet={true} />
+                                            <OptimizedImage src={logo.image} alt={logo.name} width={60} height={60} placeholder="empty" />
                                         </div>
                                     ))}
                                 </div>

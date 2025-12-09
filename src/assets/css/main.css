@@ -18683,8 +18683,8 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   animation: float-robot 6s ease-in-out infinite;
 }
 
-/* Glass Card Styles */
-.glass-card {
+/* Glass Card Styles - Generic (used outside hero section) */
+.glass-card:not(.hero-floating-cards .glass-card) {
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -18697,11 +18697,10 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   align-items: center;
   gap: 15px;
   z-index: 2;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
-.glass-card:hover {
-  transform: translateY(-5px);
+.glass-card:not(.hero-floating-cards .glass-card):hover {
   box-shadow: 0 12px 40px 0 rgba(0, 255, 151, 0.2);
   border-color: rgba(0, 255, 151, 0.3);
 }
@@ -18942,7 +18941,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   /* Allow clicks to pass through container */
 }
 
-.glass-card {
+.hero-floating-cards .glass-card {
   position: absolute;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
@@ -18959,9 +18958,11 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   animation: float 6s ease-in-out infinite;
   width: fit-content;
   max-width: 220px;
+  /* Prevent hover transforms from conflicting with animation */
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
-.glass-card__icon {
+.hero-floating-cards .glass-card__icon {
   width: 30px;
   height: 30px;
   display: flex;
@@ -18970,30 +18971,30 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   flex-shrink: 0;
 }
 
-.glass-card__icon img {
+.hero-floating-cards .glass-card__icon img {
   width: 20px;
   height: 20px;
   object-fit: contain;
 }
 
-.glass-card__content {
+.hero-floating-cards .glass-card__content {
   display: flex;
   flex-direction: column;
 }
 
-.glass-card__title {
+.hero-floating-cards .glass-card__title {
   font-size: 12px;
   font-weight: 700;
   color: var(--color-white);
   line-height: 1.2;
 }
 
-.glass-card__subtitle {
+.hero-floating-cards .glass-card__subtitle {
   font-size: 10px;
   color: rgba(255, 255, 255, 0.7);
 }
 
-.glass-card__stat {
+.hero-floating-cards .glass-card__stat {
   margin-left: auto;
   font-size: 10px;
   font-weight: 600;
@@ -19003,57 +19004,64 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   flex-shrink: 0;
 }
 
-.glass-card__stat--green {
+.hero-floating-cards .glass-card__stat--green {
   color: #00FF97;
   background: rgba(0, 255, 151, 0.1);
 }
 
-.glass-card__stat--red {
+.hero-floating-cards .glass-card__stat--red {
   color: #FFFFFF;
   background: rgba(255, 77, 77, 0.1);
 }
 
-/* Specific Card Positioning */
-.glass-card--agentic {
+/* Specific Card Positioning - Hero Section */
+.hero-floating-cards .glass-card--agentic {
   top: 18%;
   left: 5%;
   animation-delay: 0s;
 }
 
-.glass-card--wp {
+.hero-floating-cards .glass-card--wp {
   top: 48%;
   right: -5%;
+  left: auto;
   bottom: auto;
   animation-delay: 2s;
 }
 
-.glass-card--wp .glass-card__title {
+.hero-floating-cards .glass-card--wp .glass-card__title {
   color: var(--color-white);
 }
 
-.glass-card--wp .glass-card__subtitle {
+.hero-floating-cards .glass-card--wp .glass-card__subtitle {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.glass-card--multilingual {
+.hero-floating-cards .glass-card--multilingual {
+  top: auto;
+  right: auto;
   bottom: 38%;
   left: 5%;
   animation-delay: 4s;
 }
 
-.glass-card--cta {
+.hero-floating-cards .glass-card--cta {
   top: 22%;
   right: -5%;
+  left: auto;
+  bottom: auto;
   background: rgba(0, 255, 151, 0.1);
   border-color: var(--color-primary);
   cursor: pointer;
-  transition: transform 0.3s ease, background 0.3s ease;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
   min-width: auto;
+  /* Disable float animation for CTA to prevent transform conflicts */
+  animation: none;
 }
 
-.glass-card--cta:hover {
-  transform: scale(1.05);
+.hero-floating-cards .glass-card--cta:hover {
   background: rgba(0, 255, 151, 0.2);
+  box-shadow: 0 12px 40px 0 rgba(0, 255, 151, 0.3);
 }
 
 /* System Stats Bar */
@@ -19143,16 +19151,16 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 }
 
 @media (max-width: 991px) {
-  .glass-card {
+  .hero-floating-cards .glass-card {
     padding: 8px 12px;
     min-width: 180px;
   }
 
-  .glass-card__title {
+  .hero-floating-cards .glass-card__title {
     font-size: 12px;
   }
 
-  .glass-card__subtitle {
+  .hero-floating-cards .glass-card__subtitle {
     font-size: 10px;
   }
 
@@ -19191,19 +19199,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   }
 }
 
-/* Hero System Stats */
-.hero-system-stats {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  padding: 12px 20px;
-  background: rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(15px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-}
-
+/* Hero System Stats - Additional styles (positioning defined above in System Stats Bar) */
 .hero-system-stats .stat-item {
   display: flex;
   flex-direction: column;

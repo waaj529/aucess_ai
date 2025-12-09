@@ -5,7 +5,7 @@ import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import { testimonials } from '../../data/testimonials';
 import SectionTitle from '../UI/SectionTitle';
-import LazyImage from '../UI/LazyImage';
+import OptimizedImage from '../UI/OptimizedImage';
 
 /**
  * Testimonials Section Component
@@ -61,7 +61,7 @@ const TestimonialsSection = () => {
                             <SwiperSlide key={testimonial.id}>
                                 <div className="ac-testimonial-item ul_li xb-border">
                                     <div className="xb-item--avatar">
-                                        <LazyImage src={testimonial.avatar} alt="image" />
+                                        <OptimizedImage src={testimonial.avatar} alt="Testimonial avatar" width={80} height={80} />
                                     </div>
                                     <div className="xb-item--holder">
                                         <p className="xb-item--content">{t(testimonial.content)}</p>
@@ -71,7 +71,7 @@ const TestimonialsSection = () => {
                                         </div>
                                     </div>
                                     <div className="xb-item--quote">
-                                        <LazyImage src={testimonial.quote} alt="image" />
+                                        <OptimizedImage src={testimonial.quote} alt="Quote icon" width={40} height={40} placeholder="empty" />
                                     </div>
                                 </div>
                             </SwiperSlide>

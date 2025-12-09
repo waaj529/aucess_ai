@@ -105,7 +105,7 @@ const LazyImage = ({ src, alt, className, width, height, style = {}, disableSrcS
                         left: 0,
                         width: '100%',
                         height: '100%',
-                        backgroundColor: '#f0f0f0', // Light gray placeholder
+                        backgroundColor: '#1a1a2e', // Dark placeholder matching site theme
                         opacity: 0.5,
                         zIndex: -1
                     }}

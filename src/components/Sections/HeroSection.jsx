@@ -1,6 +1,6 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import LazyImage from '../UI/LazyImage';
+import OptimizedImage from '../UI/OptimizedImage';
 
 const HeroSection = () => {
     const { t } = useTranslation();
@@ -61,7 +61,14 @@ const HeroSection = () => {
                     <div className="col-lg-6">
                         <div className="hero-img-container">
                             <div className="xb-img xb-floating hero-main-img" data-aos="fade-left" data-aos-duration="800">
-                                <img src="https://ik.imagekit.io/l1mhaygkv/Untitled%20design%20(20).svg?updatedAt=1764358961002" alt="image" width="600" height="600" />
+                                <OptimizedImage 
+                                    src="https://ik.imagekit.io/l1mhaygkv/Untitled%20design%20(20).svg?updatedAt=1764358961002" 
+                                    alt="AI Automation Hero" 
+                                    width={600} 
+                                    height={600}
+                                    priority={true}
+                                    quality={90}
+                                />
                             </div>
 
                             {/* Floating Cards */}

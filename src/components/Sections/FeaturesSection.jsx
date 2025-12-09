@@ -4,6 +4,7 @@ import SectionTitle from '../UI/SectionTitle';
 import Button from '../UI/Button';
 import { features } from '../../data/features';
 import LazyImage from '../UI/LazyImage';
+import OptimizedImage from '../UI/OptimizedImage';
 
 /**
  * Features Section Component
@@ -20,7 +21,12 @@ const FeaturesSection = () => {
                 >
                     <h2 className="title">
                         <span>
-                            <img src="https://ik.imagekit.io/l1mhaygkv/ai-animation.webp" alt="AI Animation" />
+                            <OptimizedImage 
+                                src="https://ik.imagekit.io/l1mhaygkv/ai-animation.webp" 
+                                alt="AI Animation"
+                                width={60}
+                                height={60}
+                            />
                         </span>
                         {t('features.title')}
                     </h2>
